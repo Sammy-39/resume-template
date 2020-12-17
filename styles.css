@@ -9,14 +9,20 @@
     background-color: darkslategrey;
 }
 
+.img-container{
+    position: absolute;
+    width: 100%;
+    top:13%;
+}
+
 .image{
     height: 200px;
     width: 200px;
     border: 8px dotted orange;
     border-radius: 50%;
-    position: absolute;
-    top:13%;
-    left:41%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .block{
@@ -28,21 +34,20 @@
 }
 
 .name{
-    background-color: orange;
-    padding:5px 45px;
+    padding:5px 35px;
     border-radius: 5px;
+    background-color: orange;
+    font-size:60px;
     position: absolute;
-    top:45%;
-    left:28%;
-    font-size:430%;
+    top:50%;
+    left:32%;
 }
 
 .address-bar{
     position: absolute;
     top: 99%;
-    left:15%;
+    width: 100%;
     font-size: larger;
-    
 }
 
 .main{
