@@ -74,12 +74,14 @@
 
 i{
     display: inline;
+    font-size: 25px;
     margin-right: 5px;
     color: orange;
-    border: 2px solid orange;
-    border-radius: 50%;
-    padding:12px;
     background-color: darkslategrey;
+    padding: 12px;
+    border: 5px dotted orange;
+    background-clip: padding-box;
+    border-radius: 50%;
 }
 
 .title{
